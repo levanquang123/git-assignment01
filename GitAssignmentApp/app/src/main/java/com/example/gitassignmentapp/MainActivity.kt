@@ -61,3 +61,11 @@ fun GreetingButtonScreen() {
         }
     }
 }
+
+fun minus(a: Int, b: Int): Int {
+    return a - b
+}
+
+fun plus(a: Int, b: Int): Int {
+    return a + b
+}
