@@ -33,10 +33,6 @@ class MainActivity : ComponentActivity() {
 fun GreetingButtonScreen() {
     val context = LocalContext.current
 
-
-
-
-
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
@@ -60,4 +56,8 @@ fun GreetingButtonScreen() {
             Text(text = "Tạm biệt")
         }
     }
+}
+
+fun plus(a: Int, b: Int): Int {
+    return a + b
 }
