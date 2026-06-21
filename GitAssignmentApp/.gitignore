@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+GitAssignmentApp/.idea/
+GitAssignmentApp/.gradle/
+GitAssignmentApp/build/
+local.properties
+*.iml
