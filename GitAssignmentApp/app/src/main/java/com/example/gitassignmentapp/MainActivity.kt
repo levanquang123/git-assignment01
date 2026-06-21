@@ -23,14 +23,14 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GitAssignmentAppTheme {
-                HelloButtonScreen()
+                GreetingButtonScreen()
             }
         }
     }
 }
 
 @Composable
-fun HelloButtonScreen() {
+fun GreetingButtonScreen() {
     val context = LocalContext.current
 
 
